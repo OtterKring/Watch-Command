@@ -29,7 +29,7 @@ function Watch-Command {
                     # set cursor to position before loop started (overwrite refresh counter)
                     [console]::SetCursorPosition(0,$Cy)
                     # output the counter, where '.' marks remaining seconds and 'o' passed seconds
-                    Write-Host "Refresh in $($Seconds-$i)"
+                    Write-Host ("Refresh in $($Seconds-$i)" + ' ' * ($Seconds.ToString().Length - ($Seconds-$i).ToString().Length))
                     Start-Sleep -Seconds 1
                 }            
             }
