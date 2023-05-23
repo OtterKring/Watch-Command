@@ -1,5 +1,3 @@
-<center><a href="https://otterkring.github.io/MainPage" style="font-size:75%;">return to MainPage</a></center>
-
 # Watch-Command / Monitoring a silent process
 ## Monitor some process you would have to manually run a status request on
 
